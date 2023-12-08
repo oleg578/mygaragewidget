@@ -1,0 +1,22 @@
+{
+    "current": {
+        "year": "2022",
+        "make": "Polaris",
+        "equipmenttype": "ATV",
+        "model": "2022-polaris-sportsman-570-efi-eps"
+    },
+    "garage": [
+        {
+            "year": "2022",
+            "make": "Polaris",
+            "equipmenttype": "ATV",
+            "model": "2022-polaris-sportsman-570-efi-eps"
+        },
+        {
+            "year": "2020",
+            "make": "Arctic Cat",
+            "equipmenttype": "Snowmobile",
+            "model": "2020-arctic-cat-riot-6000"
+        }
+    ]
+}

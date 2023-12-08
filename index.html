@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Garage</title>
+        <link rel="stylesheet" href="sanitize.css">
+        <script src="config.js"></script>
+        <script src="vehicle.js" defer></script>
+        <script src="garage.js" defer></script>
+        <script src="main.js" defer></script>
+        <style>
+            body {
+                background-color: rgb(240, 240, 240);
+            }
+
+            main {
+                margin: 0 2rem 0 2rem;
+            }
+
+            .container {
+                max-width: 1700px !important;
+            }
+
+            .header {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                align-items: center;
+                justify-items: start;
+                background-color: #000000;
+                color: #FAFAFA;
+            }
+
+            @media screen and (max-width: 765px) {
+                .header {
+                    display: grid;
+                    place-items: center;
+                    grid-template-rows: auto;
+                    grid-template-columns: none;
+                }
+            }
+
+            .logo {
+                font-size: 1.4rem;
+                color: #ebebeb;
+            }
+
+            .logo a {
+                color: #ebebeb;
+                text-decoration: none;
+            }
+
+            #mygarage {
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <div><b>My Garage</b></div>
+            <hr>
+            <script>
+                const CustomerId = 5887875055693;
+            </script>
+            <!-- menu imitation -->
+            <div class="container">
+                <div class="header">
+                    <h1 class="logo">
+                        <a href="/" class="header__logo-link">
+                            BW Master Template
+                        </a>
+                    </h1>
+                    <div class="header__search-bar">
+                        Search panel
+                    </div>
+                    <div id="mygarage">
+                        <my-garage></my-garage>
+                    </div>
+                    <div class="header__action-list">
+                        Actions
+                    </div>
+                </div>
+            </div>
+            <!-- menu imitation -->
+            <div style="height:10rem;
+                color:rgb(57, 85, 114);
+                background-color: rgb(227, 227, 227);
+                border-top: 1px solid #A0A0A0;">
+                <p>Out of template</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+            </div>
+        </main>
+    </body>
+
+</html>

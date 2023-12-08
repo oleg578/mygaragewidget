@@ -1,0 +1,14 @@
+[
+  {
+    "model":"Can Am DS-250",
+    "handle": "can-am-ds-250"
+  },
+  {
+    "model":"Arctic Cat Lynx-2000",
+    "handle":"arctic-cat-lynx-2000"
+  },
+  {
+    "model":"Cub Cadet CS5018",
+    "handle":"cub-cadet-cs5018"
+  }
+]

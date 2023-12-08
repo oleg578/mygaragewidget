@@ -1,0 +1,52 @@
+@service_host = localhost:8000
+### get garage
+GET http://{{service_host}}/garage/get?cid=5887875055693
+
+
+### update
+POST http://{{service_host}}/garage/set/
+
+{
+    "input": {
+        "metafields": [
+            {
+                "id": "gid://shopify/Metafield/20362312515661",
+                "value": "{\"current\":{\"year\":\"2023\",\"make\":\"Can-Am\",\"equipmenttype\":\"ATV\",\"model\":\"2023-polaris-sportsman-777-efi-eps\"},\"garage\":[]}"
+
+            }
+        ],
+        "id": "gid://shopify/Customer/5887875055693"
+    }
+}
+
+
+### create
+POST https://{{service_host}}/garage/set/
+
+{
+  "input": {
+    "metafields": [
+      {
+        "namespace": "equipments",
+        "key": "garage",
+        "type": "json",
+        "value": "{\"current\":{\"year\":\"2023\",\"make\":\"Polaris\",\"equipmenttype\":\"ATV\",\"model\":\"2023-polaris-sportsman-777-efi-eps\"},\"garage\":[]}"
+      }
+    ],
+    "id": "gid://shopify/Customer/5887875055693"
+  }
+}
+
+### get years
+GET http://{{service_host}}/ftmt/year
+
+### get brand
+GET http://{{service_host}}/ftmt/brand?year=2024
+
+### get equipment
+GET http://{{service_host}}/ftmt/equipment?year=2024&brand=Polaris
+
+### get models
+GET http://{{service_host}}/ftmt/model?year=2024&brand=Polaris&equipmenttype=ATV
+
+

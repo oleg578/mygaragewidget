@@ -1,0 +1,21 @@
+{% schema %}
+{
+  "name": "mygarage",
+  "settings": [
+
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+{% if customer %}
+  <p>Customer: {{ customer.first_name }} garage:</p>
+  <script>
+    let MyGarage = {{ customer.metafields.equipments.garage }}
+  </script>
+{% endif %}

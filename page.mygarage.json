@@ -1,0 +1,11 @@
+{
+    "sections": {
+        "mygarage": {
+            "type": "mygarage",
+            "settings": {}
+        }
+    },
+    "order": [
+        "mygarage"
+    ]
+}

@@ -1,0 +1,54 @@
+#my-garage-button {
+  height: 4rem;
+  display: grid;
+  align-content: center;
+  justify-items: stretch;
+  grid-template-columns: 64px 1fr;
+  padding: 0.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 20rem;
+  column-gap: 4rem;
+  font-size: 1rem;
+}
+#my-garage-button:hover {
+  cursor: pointer;
+}
+#my-garage-button-bottom-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#my-garage-icon {
+  height: auto;
+  width: auto;
+}
+
+#my-garage-button-arrow {
+  height: 8px;
+  width: auto;
+}
+
+#my-garage-button-header {
+  text-align: end;
+}
+
+#my-garage-button-arrow {
+  transition: transform 0.33s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+.rotated {
+  transform: rotate(-180deg);
+}
+#my-garage-container {
+  min-height: 7rem;
+  display: grid;
+  align-content: center;
+  justify-items: stretch;
+  grid-template-columns: 3fr 1fr;
+}

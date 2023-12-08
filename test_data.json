@@ -1,0 +1,22 @@
+{
+    "current": {
+        "year": "2014",
+        "make": "Can-Am",
+        "equipmenttype": "ATV",
+        "model": "2014-can-am-ds-250"
+    },
+    "garage": [
+        {
+            "year": "2014",
+            "make": "Can-Am",
+            "equipmenttype": "ATV",
+            "model": "2014-can-am-ds-250"
+        },
+        {
+            "year": "2018",
+            "make": "Arctic Cat",
+            "equipmenttype": "Snowmobile",
+            "model": "2018-arctic-cat-lynx-2000"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{% if customer %}
+  <script>
+    const CustomerId = {{ customer.id }}
+  </script>
+  <p>Customer: {{ customer.first_name }} garage:</p>
+{% endif %}
+<my-garage></my-garage>
